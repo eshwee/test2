@@ -16,6 +16,10 @@
 		BDD3C4872A4BBE4900AF6487 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD3C4862A4BBE4900AF6487 /* ContentView.swift */; };
 		BDD3C4892A4BBE4A00AF6487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD3C4882A4BBE4A00AF6487 /* Assets.xcassets */; };
 		BDD3C48C2A4BBE4A00AF6487 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD3C48B2A4BBE4A00AF6487 /* Preview Assets.xcassets */; };
+		BDD8BE2F2A4E473300B7349E /* thaifood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8BE2E2A4E473300B7349E /* thaifood.swift */; };
+		BDD8BE312A4E480800B7349E /* indian.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8BE302A4E480800B7349E /* indian.swift */; };
+		BDD8BE332A4E493200B7349E /* mexican.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8BE322A4E493100B7349E /* mexican.swift */; };
+		BDD8BE352A4E563500B7349E /* lf.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8BE342A4E563500B7349E /* lf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		BDD3C4862A4BBE4900AF6487 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDD3C4882A4BBE4A00AF6487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD3C48B2A4BBE4A00AF6487 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDD8BE2E2A4E473300B7349E /* thaifood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thaifood.swift; sourceTree = "<group>"; };
+		BDD8BE302A4E480800B7349E /* indian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indian.swift; sourceTree = "<group>"; };
+		BDD8BE322A4E493100B7349E /* mexican.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mexican.swift; sourceTree = "<group>"; };
+		BDD8BE342A4E563500B7349E /* lf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lf.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 			children = (
 				BDD3C4842A4BBE4900AF6487 /* test2App.swift */,
 				BDD3C4862A4BBE4900AF6487 /* ContentView.swift */,
+				BDD8BE342A4E563500B7349E /* lf.swift */,
+				BDD8BE322A4E493100B7349E /* mexican.swift */,
+				BDD8BE302A4E480800B7349E /* indian.swift */,
+				BDD8BE2E2A4E473300B7349E /* thaifood.swift */,
 				BD34373F2A4D4D040052135C /* dessert.swift */,
 				BDCEB8F72A4CC27F00654461 /* second.swift */,
 				BD484CB32A4D38BB00AF2C94 /* greekfood.swift */,
@@ -155,10 +167,14 @@
 				BD484CB42A4D38BB00AF2C94 /* greekfood.swift in Sources */,
 				BDD3C4872A4BBE4900AF6487 /* ContentView.swift in Sources */,
 				BD484CB82A4D3D8300AF2C94 /* greeksalad.swift in Sources */,
+				BDD8BE352A4E563500B7349E /* lf.swift in Sources */,
 				BD3437402A4D4D040052135C /* dessert.swift in Sources */,
 				BD34373E2A4D4A690052135C /* worldmap.swift in Sources */,
 				BDD3C4852A4BBE4900AF6487 /* test2App.swift in Sources */,
+				BDD8BE312A4E480800B7349E /* indian.swift in Sources */,
+				BDD8BE332A4E493200B7349E /* mexican.swift in Sources */,
 				BDCEB8F82A4CC27F00654461 /* second.swift in Sources */,
+				BDD8BE2F2A4E473300B7349E /* thaifood.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

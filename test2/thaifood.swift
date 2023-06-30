@@ -1,53 +1,50 @@
 //
-//  greekfood.swift
+//  thaifood.swift
 //  test2
 //
-//  Created by Scholar on 6/28/23.
+//  Created by Scholar on 6/29/23.
 //
 
 import SwiftUI
 
-struct greekfood: View {
+struct thaifood: View {
     var body: some View {
-        Text ("Gluten free recipes")
+        Text ("Thai recipes")
             .font(.largeTitle)
         VStack {
             NavigationLink(destination: greeksalad()) {
-                Image ("GF1 1")
+                Image ("karen1")
                               .resizable()
                               .aspectRatio(contentMode: .fit)
                           
             }
             Divider()
             
-            Text ("potato bites")
+            Text ("Boat noodles")
                 .foregroundColor(Color(red: 0.854, green: 0.321, blue: 0.246))
             
             
-            Image ("GF2")
+            Image ("karen2")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-            Text ("tacos")
+            Text ("meat skewers")
                 .foregroundColor(Color(red: 0.724, green: 0.492, blue: 0.736))
             Divider()
-            Image ("GF3")
+            Image ("karen3")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
             
-            Text ("Rice")
+            Text ("noodle salad")
                 .foregroundColor(Color(red: 0.929, green: 0.668, blue: 0.101))
             
         }
         
         
-        
-        
-        
-    }
+            }
 }
 
-struct greekfood_Previews: PreviewProvider {
+struct thaifood_Previews: PreviewProvider {
     static var previews: some View {
-        greekfood()
+        thaifood()
     }
 }

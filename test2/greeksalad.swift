@@ -9,10 +9,10 @@ import SwiftUI
 
 struct greeksalad: View {
     var body: some View {
-  
+        
  Text ("Greek salad recipe")
             .offset(y:-350)
-        Image ("greek1")
+        Image ("GF1 1")
             .resizable()
             .aspectRatio(contentMode: .fit)
             .padding()

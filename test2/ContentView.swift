@@ -21,12 +21,13 @@ struct ContentView: View {
 
             
             VStack(alignment: .center) {
-                Text ("Welcome")
-                    .font(.headline)
-                    .offset(x:-110, y:-80)
-                Text ("What would you like to cook today?")
+                
+                Text ("What would you like")
                     .font(.title)
-                    .offset(x:-30, y:-80)
+                                        .offset(x:-30, y:-20)
+                Text ("to cook today?")
+                    .font(.title)
+                    .offset(x: -50, y: -20)
                 HStack {
                     VStack {
                         NavigationLink(destination: greekfood()) {
@@ -40,7 +41,7 @@ struct ContentView: View {
                         
                         
                         Text("gluten-free")
-                           
+                        
                         
                     }
                     
@@ -50,26 +51,78 @@ struct ContentView: View {
                         NavigationLink(destination: dessert()) {
                             
                             
-                            Image("dessert")
+                            Image("vegan1 Cropped")
                                 .resizable()
-                            .aspectRatio(contentMode: .fit)}
-                        Text("dessert")
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 100,height: 100)                        }
+                        Text("vegetarian")
                     }
                     VStack {
-                        Image("southern")
+                        
+                        Image("lf1 Cropped")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                        Text("southern")
+                            .frame(width: 100,height: 100)
+                                                    
+                        Text("Lactose-free")
+                        
                         
                     }
                     
+                   
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            }
+                        }
+            VStack(alignment: .center) {
+                                         
+                                         
+                                         
+                                         HStack {
+                                             VStack {
+                                                 
+                                                 NavigationLink(destination: thaifood()) {
+                                                     Image ("karen1")
+                                                         .resizable()
+                                                         .aspectRatio(contentMode: .fit)
+                                                         .frame(width:100,height:100)
+                                           
+                                                     
+                                                     NavigationLink(destination: indian()) {
+                                                         Image ("indian1 Cropped")
+                                                             .resizable()
+                                                             .aspectRatio(contentMode: .fit)
+                                                             .frame(width:100,height:100)
+                                                         
+                                                         NavigationLink(destination: mexican()) {
+                                                             Image("mexican1 Cropped-3")
+                                                             .resizable()
+                                                             .aspectRatio(contentMode: .fit)
+                                                             .frame(width:100,height:100)
+                                                             
+                                                         }
+
+                                                         
+                                                         
+                                                     }
+                                                     
+                                                     
+                    }
                     
+      
+                                       }
+                                       
+
                 }
                 
-                
             }
-            
-            
             
             
             
@@ -98,6 +151,14 @@ struct ContentView: View {
                     .aspectRatio(contentMode: .fit)
                 
                     .frame(width: 100,height: 80)
+             
+                
+                
+                
+                
+                
+                
+                
                   
             }
             
@@ -121,7 +182,7 @@ struct ContentView: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(width :50,height: 50)
-                            .offset(y:90)
+                            .offset(y:60)
                        
                    
                     
